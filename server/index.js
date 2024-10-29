@@ -19,3 +19,4 @@ app.post('/api/registration', (req, res) => {
 });
 
 app.listen(9090, () => console.log('Server running on http://localhost:9090'));
+

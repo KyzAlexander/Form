@@ -7,3 +7,4 @@ export function validateForm(data) {
   }
   return { isValid: Object.keys(errors).length === 0, fields: errors };
 }
+

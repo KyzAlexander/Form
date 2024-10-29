@@ -33,6 +33,6 @@ module.exports = {
   ],
   devServer: {
     static: path.join(__dirname, 'dist'), // Упрощенная настройка
-    port: 9090,
+    port: 8080,
   },
 };
