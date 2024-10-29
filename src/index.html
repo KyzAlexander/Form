@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback Form</title>
+  </head>
+  <body>
+    <div id="app">
+      <form id="feedbackForm" class="feedback-form">
+        <input type="text" name="name" placeholder="Name" required />
+        <input type="email" name="email" placeholder="Email" required />
+        <input type="text" name="phone" required />
+        <textarea name="message" placeholder="Message" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+      <button id="openModalButton">Открыть модальное окно</button>
+
+     
+      <div id="modal" class="modal">
+        <div class="modal-content">
+          <span class="close-button" id="closeModalButton">&times;</span>          
+          <p>
+            Это текст модального окна. Вы можете разместить здесь любой контент.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
